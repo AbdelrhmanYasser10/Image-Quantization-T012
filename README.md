@@ -2,10 +2,10 @@
 FCIS Algorithms Project 22'
 # Structs , And Classes Implemented
 ## Edge Struct : 
-• Used For Describe Edges in the graph
-• Key -> Parent Node
-• Value -> child Node
-• Weight -> cost on Edge
+• Used For Describe Edges in the graph <br>
+• Key -> Parent Node <br>
+• Value -> child Node <br>
+• Weight -> cost on Edge <br>
 ## GlobalDataForProjectOperationsClass [static class]: 
 • Used For the values that repeated a lot and needed in more than one place in code
 • Width -> Image Width

@@ -19,8 +19,12 @@ total standard deviation in the First Bonus] <br>
 
 # Construct the graph[1] :
 ## A - Find Distinct Colors <br>
-• Making 1D arrays with size [256*256*256] <br>
-• Indexing the array with following equation which make sure that that color's unique, ((red *256)+green)*256 + blue <br>
+• Making 1D arrays with size [256 * 256 * 256] <br>
+• Indexing the array with following equation which make sure that that color's unique, ((red * 256)+green) * 256 + blue <br>
 • Store the positions of distinct colors in the storeDcolors array for replacement <br>
-• Space is required only 1D array with size [256*256*256] => which bounded by 𝐷^2 <br>
+• Space is required only 1D array with size [256 * 256 * 256] => which bounded by 𝐷^2 <br>
 • Final Complexity is O( Height * Width) => O(𝑁^2) <br>
+
+## B - Construct The Graph
+• In this function we take only the edges that has minimum cost and store it to make the [Minimal Spanning Tree] => Using Prim's Algorithm <br>
+• Looping on each Distinct color's children , take only the minimum edge , and the next iteration will start from this child • It costs O(D * D) => O(𝐷 ^ 2) <br>
